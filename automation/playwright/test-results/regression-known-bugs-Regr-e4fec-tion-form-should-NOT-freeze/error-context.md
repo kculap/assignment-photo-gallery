@@ -1,0 +1,46 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - generic:
+    - banner:
+      - link "Menu" [ref=e6] [cursor=pointer]:
+        - /url: /angular/starterkit-photo-gallery/main
+        - link "Menu" [ref=e7]:
+          - /url: javascript:void(0)
+        - img [ref=e8]
+  - main [ref=e10]:
+    - generic [ref=e16]:
+      - img [ref=e17]
+      - heading "Register" [level=2] [ref=e21]
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - generic [ref=e24]:
+            - generic [ref=e25]: Email
+            - textbox "Email" [active] [ref=e26] [cursor=pointer]:
+              - /placeholder: Enter your email
+              - text: test123@test.com
+          - generic [ref=e27]:
+            - generic [ref=e28]: Username
+            - textbox "Username" [ref=e29] [cursor=pointer]:
+              - /placeholder: Enter your username
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - generic [ref=e32]: Password
+            - textbox "Password" [ref=e33] [cursor=pointer]
+          - generic [ref=e34]:
+            - generic [ref=e35]: Confirm Password
+            - textbox "Confirm Password" [ref=e36] [cursor=pointer]
+            - generic [ref=e38]: Confirm Password is required.
+        - button "Register" [disabled] [ref=e40]
+  - contentinfo [ref=e41]:
+    - generic [ref=e42]:
+      - paragraph [ref=e43]:
+        - text: Copyright @
+        - link "Blog name" [ref=e44] [cursor=pointer]:
+          - /url: javascript:void(0);
+      - paragraph [ref=e45]:
+        - text: Powered by
+        - link "Baasic" [ref=e46] [cursor=pointer]:
+          - /url: http://www.baasic.com/
+```

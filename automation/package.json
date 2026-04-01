@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "name": "automation-workspace",
+  "scripts": {
+    "typecheck": "node ./playwright/node_modules/typescript/bin/tsc -p tsconfig.json"
+  }
+}
